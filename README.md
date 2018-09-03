@@ -75,3 +75,14 @@ npm install -g nodemon --save
 - Instalar paquetes necesarios -> npm install
 
 - Iniciar proyecto Back -->. npm start
+
+	* (Prueba) http://localhost:8000/sports-app/api/deportes
+	* (Prueba) http://localhost:8000/sports-app/api/deportistas
+
+## Integración FrontEnd y BackEnd
+
+- Configurar Environments en Aplicación FrontEnd
+
+- Modificar Servicios para que apunten a la ruta de la API y quitar el ".json" de la URL
+
+

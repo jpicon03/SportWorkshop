@@ -4,8 +4,10 @@ import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 import { Deporte } from '../models/deporte.model';
 
-const API_URL = "../../assets/";
-const deportes = '/deportes.json';
+import { environment } from '../../../environments/environment';
+
+const API_URL = environment.apiURL;
+const deportes = '/deportes';
 
 @Injectable()
 export class DeportesService {
