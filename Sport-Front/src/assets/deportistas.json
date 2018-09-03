@@ -1,0 +1,27 @@
+[
+  {
+    "nombre": "Deportista 1",
+    "fechaCumpleanios": "04/01/2001"
+  },
+  {
+    "nombre": "Deportista 2",
+    "fechaCumpleanios": "04/01/1992"
+  },
+  {
+    "nombre": "Deportista 3",
+    "fechaCumpleanios": "04/10/1995"
+  },
+  {
+    "nombre": "Deportista 4",
+    "fechaCumpleanios": "04/01/2002"
+  },
+  {
+    "nombre": "Deportista 5",
+    "fechaCumpleanios": "04/01/1978"
+  },
+  {
+    "nombre": "Deportista 6",
+    "fechaCumpleanios": "04/01/1469"
+  }
+
+]
