@@ -1,6 +1,8 @@
 # SportWorkshop
 Taller Semana 5 - Gerencia de Proyectos de Software
 
+## Implementación FrontEnd - AngularJS
+
 - Crear Proyecto Front y componentes - Angular JS
 
 https://angular.io/guide/quickstart
@@ -42,3 +44,34 @@ Quedaría algo como:
 - Manejo de errores mirar por consola del navegador posibles excepciones.
 
 - Agregar al controlador llamado a servicios.
+
+## Implementación BackEnd - NodeJS
+
+- Usar comando para la base del back -> npm init
+
+- Modificar package.json ---> Agregar comando "start"
+
+"scripts": {
+    "start": "nodemon app.js"
+  },
+
+- Instalar nodemon (permite al dev reiniciar la app cuando se hace un cambio)
+
+npm install -g nodemon --save
+
+- Instalando paquetes adicionales
+	* npm install --save express
+	* npm install --save body-parser
+	* npm install --save cors
+
+- Tener en cuenta .gitignore
+
+- Crear archivo app.js que es la base del back
+
+- Creación directorio "assets" que contiene los JSON. - Crear JSONs
+
+- Crear carpeta "app" -> que contiene "controllers" y "services"
+
+- Instalar paquetes necesarios -> npm install
+
+- Iniciar proyecto Back -->. npm start
